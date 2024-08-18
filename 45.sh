@@ -17,7 +17,7 @@ if [[ $(basename "$PWD") == "Miao-Yunzai" ]]; then
         
         echo "少女正在下载版本文件"
         # 下载新的 device.js
-        curl -o ./node_modules/icqq/lib/core/device.js https://fujiang.icu:20457/down/ap9v6CIKYOKD.js
+        curl -o ./node_modules/icqq/lib/core/device.js https://raw.githubusercontent.com/T060925ZX/ver/main/device.js
 
         if [[ $? -eq 0 ]]; then
             echo "下载成功"
